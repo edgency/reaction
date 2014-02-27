@@ -1,6 +1,13 @@
-Notes
-=====
+Reaction Commerce Docs
+======================
 
-When previewing locally, you must pass an empty string to --baseurl option so that everything views correctly at localhost:4000 normally:
+Documentation for Reaction Commerce is hosted on GitHub Pages and uses Jekyll
 
-	jekyll serve --baseurl ''
+Local Dev Environment Notes
+---------------------------
+
+When previewing locally, you must pass an empty string to --baseurl option so that everything shows up correctly at localhost:4000
+
+	jekyll serve --watch --baseurl ''
+
+For more info on why, see: http://jekyllrb.com/docs/github-pages/
