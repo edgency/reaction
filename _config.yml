@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 repository: https://github.com/ongoworks/reaction
 baseurl: /reaction
+relative_permalinks: true
