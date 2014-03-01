@@ -1,13 +1,6 @@
-{% include top.html %}
-
-<body>
-
-  <div class="container">
-    {% include sidebar.html %}
-    
-      {{ content }}
-    
-  </div><!-- container -->
-
-</body>
-</html>
+---
+theme :
+  name : bootstrap
+---
+{% include JB/setup %}
+{% include themes/bootstrap/default.html %}
