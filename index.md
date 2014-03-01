@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Reaction Commerce
+tagline: Homepage
 ---
 {% include JB/setup %}
 
