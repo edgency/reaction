@@ -12,9 +12,12 @@ html, body {
 	text-decoration: underline;
 }
 
-.docs-header {
+.header {
 	height: 75px;
+	margin-bottom: 35px;
 }
+
+.header h1 { margin-bottom: 40px; }
 
 footer {
 	height: 40px;
