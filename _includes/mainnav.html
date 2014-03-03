@@ -1,0 +1,39 @@
+<div class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ HOME_PATH }}">Reaction Commerce</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a 
+          {% if page.url == '/support/index.html' %}
+            class="active"
+          {% endif %}
+        href="support/">Support</a></li>
+        <li><a 
+          {% if page.url == '/manual/index.html' %}
+            class="active"
+          {% endif %}
+        href="manual/">User Manual</a></li>
+        <li><a 
+          {% if page.url == '/docs/index.html' %}
+            class="active"
+          {% endif %}
+        href="docs/">Developer Docs</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a
+          {% if page.url == '/contact/index.html' %}
+            class="active"
+          {% endif %}
+        href="#contact">Contact Us</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container-fluid -->
+</div>
