@@ -5,7 +5,7 @@ $('#sidebar').affix({
 });
 
 var $body   = $(document.body);
-var navHeight = $('.navbar').outerHeight(true) + 10;
+var navHeight = $('.navbar').outerHeight(true) + 5;
 
 $body.scrollspy({
 	target: '#leftCol',
