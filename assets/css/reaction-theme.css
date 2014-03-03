@@ -16,6 +16,9 @@ html, body {
 	height: 75px;
 }
 
+footer {
+	height: 40px;
+}
 
 /* Sidebar */
 
@@ -51,3 +54,7 @@ html, body {
 	color: #f0ad4e;
 }
 
+/* Feature sections */
+.video-container {
+	padding: 20px 0;
+}
