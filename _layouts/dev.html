@@ -1,0 +1,30 @@
+{% include top.html %}
+
+  <body>
+
+    {% include mainnav.html %}
+
+    <div class="container">
+      <div class="row">
+        <div class="header col-sm-12">
+          <h1>Developer Docs</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" id="leftCol">
+          <ul class="nav nav-stacked hidden-print hidden-xs" id="sidebar">
+            <li><a href="#sec0">Section 0</a></li>
+            <li><a href="#sec1">Section 1</a></li>
+            <li><a href="#sec2">Section 2</a></li>
+            <li><a href="#sec3">Section 3</a></li>
+            <li><a href="#sec4">Section 4</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-8 col-sm-offset-1">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+      
+{% include bottom.html %}

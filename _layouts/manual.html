@@ -1,0 +1,32 @@
+
+{% include top.html %}
+
+  <body>
+
+    {% include mainnav.html %}
+
+    <div class="container">
+      <div class="row">
+        <div class="header col-sm-12">
+          <h1>User Manual</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" id="leftCol">
+          <ul class="nav nav-stacked hidden-print hidden-xs" id="sidebar">
+            <li><a href="#products">Products</a></li>
+            <li><a href="#addedit">Add/Edit Products</a></li>
+            <li><a href="#dragdrop">Drag & Drop Merchandising</a></li>
+            <li><a href="#category">Category & Tag Management</a></li>
+            <li><a href="#positioning">Positioning Products</a></li>
+            <li><a href="#order">Order Management</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-8 col-sm-offset-1 docs">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+      
+{% include bottom.html %}

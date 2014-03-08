@@ -4,6 +4,10 @@ html, body {
 	font-family: Roboto, sans-serif;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .navbar {
   border-radius: 0;
 }
@@ -60,4 +64,19 @@ footer {
 /* Feature sections */
 .video-container {
 	padding: 20px 0;
+}
+
+/* User Manual & Dev Docs */
+
+.docs h2, .docs h3 {
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+section p.note { /* generified for use in other pages such as Dev Docs */
+	font-style: italic;
+	color: #808080;
 }
