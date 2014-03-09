@@ -63,8 +63,8 @@ footer {
 }
 
 #sidebar .nav a {
-	font-size: 14px;
-	padding: 8px 0 8px 24px;
+	font-size: 12px;
+	padding: 6px 0 8px 24px;
 }
 
 #sidebar .active>ul {
@@ -87,6 +87,10 @@ footer {
 
 .docs h2, .docs h3 {
 	margin-bottom: 20px;
+}
+
+.docs h3 {
+	margin-top: 40px;
 }
 
 p {
