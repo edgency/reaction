@@ -101,3 +101,17 @@ section p.note { /* generified for use in other pages such as Dev Docs */
 	font-style: italic;
 	color: #808080;
 }
+
+
+/* Landing Page */
+
+.hero h1 {
+	margin: 50px 0 80px 0;
+}
+.features {
+	background-color: #f8f8f8;
+	border: 1px solid #e7e7e7;
+}
+.features>.container, .mailinglist>.container {
+	margin-top: 50px;
+}
