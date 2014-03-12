@@ -28,6 +28,20 @@ $(document).ready(function() {
 			$("#browser .tabs li:nth-child(" + index + ")").addClass("active");
 
 		});
+		$(".glyphicon-chevron-left").click(function() {
+			var $cur = $("#browser .active");
+			if ( $cur.index() == 0 ) {
+				var index = $("#browser .tabs li").length;
+			}
+			else {
+				var index = $cur.index();
+			}
+
+			$cur.removeClass("active");
+			
+			$("#browser .tabs li:nth-child(" + index + ")").addClass("active");
+
+		});
 
 		$("#browser .tabs li").click(function() {
 			$("li").removeClass("active");
