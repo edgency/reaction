@@ -14,43 +14,81 @@ $body.scrollspy({
 
 /* Carousel */
 $(document).ready(function() {
-		$(".glyphicon-chevron-right").click(function() {
-			var $cur = $("#browser .active");
-			if ( $cur.index() < ($("#browser .tabs li").length - 1) ) {
-				var index = $cur.index() + 2;
-			}
-			else {
-				var index = 1;
-			}
+	$("#main-carousel").owlCarousel({
+ 		
+ 		items : 1,
+ 		itemsDesktop : [1199,1],
+    itemsDesktopSmall : [980,1],
+    itemsTablet: [768,1],
+    itemsMobile : [479,1],
+    responsiveRefreshRate : 100,
 
-			$cur.removeClass("active");
-			
-			$("#browser .tabs li:nth-child(" + index + ")").addClass("active");
-
-		});
-		$(".glyphicon-chevron-left").click(function() {
-			var $cur = $("#browser .active");
-			if ( $cur.index() == 0 ) {
-				var index = $("#browser .tabs li").length;
-			}
-			else {
-				var index = $cur.index();
-			}
-
-			$cur.removeClass("active");
-			
-			$("#browser .tabs li:nth-child(" + index + ")").addClass("active");
-
-		});
-
-		$("#browser .tabs li").click(function() {
-			$("li").removeClass("active");
-			$(this).addClass("active");
-		});
-//		$("#myCarousel").swiperight(function() {  
-//		  $(this).carousel('prev');  
-//		});  
-//		$("#myCarousel").swipeleft(function() {  
-//		  $(this).carousel('next');  
-//		});  
+    // Most important owl features
+    itemsCustom : false,
+    itemsTabletSmall: false,
+    singleItem : false,
+    itemsScaleUp : false,
+ 
+    //Basic Speeds
+    slideSpeed : 200,
+    paginationSpeed : 800,
+    rewindSpeed : 1000,
+ 
+    //Autoplay
+    autoPlay : false,
+    stopOnHover : false,
+ 
+    // Navigation
+    navigation : false,
+    navigationText : ["prev","next"],
+    rewindNav : true,
+    scrollPerPage : false,
+ 
+    //Pagination
+    pagination : true,
+    paginationNumbers: false,
+ 
+    // Responsive 
+    responsive: true,
+    responsiveBaseWidth: window,
+ 
+    // CSS Styles
+    baseClass : "owl-carousel",
+    theme : "owl-theme",
+ 
+    //Lazy load
+    lazyLoad : false,
+    lazyFollow : true,
+    lazyEffect : "fade",
+ 
+    //Auto height
+    autoHeight : false,
+ 
+    //JSON 
+    jsonPath : false, 
+    jsonSuccess : false,
+ 
+    //Mouse Events
+    dragBeforeAnimFinish : true,
+    mouseDrag : true,
+    touchDrag : true,
+ 
+    //Transitions
+    transitionStyle : false,
+ 
+    // Other
+    addClassActive : false,
+ 
+    //Callbacks
+    beforeUpdate : false,
+    afterUpdate : false,
+    beforeInit: false, 
+    afterInit: false, 
+    beforeMove: false, 
+    afterMove: false,
+    afterAction: false,
+    startDragging : false,
+    afterLazyLoad : false
+ 
+	});
 });
