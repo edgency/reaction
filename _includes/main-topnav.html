@@ -10,24 +10,25 @@
       <a class="navbar-brand" href="{{ site.baseurl }}/">Reaction Commerce</a>
     </div>
     <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li><a 
-          {% if page.url == '/manual/index.html' %}
-            class="active"
-          {% endif %}
-        href="{{ site.baseurl }}/manual/">User Manual</a></li>
-        <li><a 
-          {% if page.url == '/dev/index.html' %}
-            class="active"
-          {% endif %}
-        href="{{ site.baseurl }}/dev/">Developer Docs</a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li><a 
+          {% if page.url == '/about/index.html' %}
+            class="active"
+          {% endif %}
+          href="{{ site.baseurl }}/about/">About</a>
+        </li>
+        <li><a 
+          {% if page.url == '/blog/index.html' %}
+            class="active"
+          {% endif %}
+          href="{{ site.baseurl }}/blog/">Blog</a>
+        </li>
         <li><a
           {% if page.url == '/contact/index.html' %}
             class="active"
           {% endif %}
-        href="{{ site.baseurl }}/contact">Contact Us</a></li>
+          href="{{ site.baseurl }}/contact">Contact Us</a>
+        </li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container-fluid -->
