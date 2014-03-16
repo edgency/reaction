@@ -120,6 +120,7 @@ p img.img-responsive {
 
 .hero h1 {
 	margin: 50px 0 80px 0;
+	font-size: 48px;
 }
 
 .actions {
@@ -128,8 +129,9 @@ p img.img-responsive {
 	padding: 25px 0;
 }
 
-.main-carousel>div {
-	text-align: center;
+#main-carousel .owl-item div {
+	margin: 0 auto;
+	width: 90%;
 }
 
 .main-footer {
