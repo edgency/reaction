@@ -102,7 +102,7 @@ p {
 	margin-bottom: 20px;
 }
 
-section p.note { /* generified for use in other pages such as Dev Docs */
+section p.note { /* generalized for use in other pages such as Dev Docs */
 	font-style: italic;
 	color: #808080;
 }
