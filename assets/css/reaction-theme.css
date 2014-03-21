@@ -118,8 +118,9 @@ p img.img-responsive {
 	padding: 25px 0;
 }
 
+/* Includes fix for http://stackoverflow.com/questions/18392477/how-to-make-bootstrap-3-fluid-layout-without-horizontal-scrollbar */
 .home-hero {
-	padding: 0;
+	padding: 0 15px; /* fix */
 }
 
 .home-hero h1 {
