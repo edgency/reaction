@@ -3,7 +3,7 @@ layout: dev
 title: Developer Docs
 ---
 
-## <a name="sec0"></a>Section 0
+<h2 id="sec0">Section 0</h2>
 
 Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
 
@@ -23,7 +23,7 @@ In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra e
 
 ***
 
-## <a name="sec1"></a>Section 1
+<h2 id="sec1">Section 1</h2>
 
 Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
 
