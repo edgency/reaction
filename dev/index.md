@@ -19,7 +19,51 @@ Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a sceleris
 }
 ```
 
-In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra eu arcu a faucibus. Proin id consectetur nisl. Nulla dapibus facilisis ipsum, vitae ultrices nibh placerat et. Pellentesque varius ipsum enim, nec commodo nulla iaculis eget. Integer nec leo vitae velit imperdiet venenatis nec eu magna. Pellentesque pharetra nibh vitae felis venenatis consequat. Maecenas egestas, ligula sit amet pharetra suscipit, velit metus adipiscing orci, id euismod massa nisi vel lectus. Nullam aliquet est a est imperdiet, id mattis nulla tempor. Ut risus nisi, ornare malesuada nisl ut, auctor sagittis lectus.
+<h3 id="sec01">Section 0.1</h3>
+
+In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra eu arcu a faucibus. Proin id consectetur nisl. Nulla dapibus facilisis ipsum, vitae ultrices nibh placerat et.
+
+```javascript
+var metas = document.getElementsByTagName('meta');
+var i;
+if (navigator.userAgent.match(/iPhone/i)) {
+  for (i=0; i<metas.length; i++) {
+    if (metas[i].name == "viewport") {
+      metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+    }
+  }
+  document.addEventListener("gesturestart", gestureStart, false);
+}
+```
+
+<h3 id="sec03">Section 0.2</h3>
+
+Ligula sit amet pharetra suscipit, velit metus adipiscing orci, id euismod massa nisi vel lectus. Nullam aliquet est a est imperdiet, id mattis nulla tempor. Ut risus nisi, ornare malesuada nisl ut, auctor sagittis lectus.
+
+```javascript
+$('#sidebar').affix({
+      offset: {
+        top: 150,
+        bottom: function () {
+            return (this.bottom = $('footer').outerHeight(true) + 15)
+        }
+      }
+});
+```
+
+<h3 id="sec03">Section 0.3</h3>
+
+Pellentesque varius ipsum enim, nec commodo nulla iaculis eget. Integer nec leo vitae velit imperdiet venenatis nec eu magna. Pellentesque pharetra nibh vitae felis venenatis consequat. Maecenas egestas.
+
+```javascript
+function gestureStart() {
+  for (i=0; i<metas.length; i++) {
+    if (metas[i].name == "viewport") {
+      metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+    }
+  }
+}
+```
 
 ***
 

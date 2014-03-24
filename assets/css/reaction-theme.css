@@ -1,8 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500);
 
 html, body {
-	font-family: Droid Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
 
@@ -21,29 +22,15 @@ h1, h2, h3, h4 {
 }
 
 a {
-	color: #19A9B3;
+	color: #197EA5;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #1CB3B7;
 }
 
 .navbar {
   border-radius: 0;
-}
-
-.nav>li>a {
-	padding-right: 18px;
-	padding-left: 18px;
-}
-
-.navbar-default .navbar-nav>li>a {
-	font-size: 14px;
-}
-
-.navbar-default .navbar-nav>li>a.active {
-	color: #000;
 }
 
 .header {
@@ -52,6 +39,30 @@ a:hover {
 }
 
 .header h1 { margin-bottom: 40px; }
+
+
+/* Top Nav */
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 13px;
+	color: #777;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	padding-right: 18px;
+	padding-left: 18px;
+}
+
+.navbar-default .navbar-nav>li>a.active {
+	color: #000;
+}
+
+.nav>li:hover {
+	background-color: #DFEAEA;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #777;
+}
 
 
 /* Sidebar */
@@ -192,8 +203,17 @@ p img.img-responsive {
 	color: #F5F5F5;
 }
 
-.main-footer ul>li {
-	margin: 5px 0;
+.main-footer a {
+	color: #fff;
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	display: block;
+	line-height: 24px;
+}
+
+.main-footer a:hover {
+	color: #F05439;
 }
 
 .sub-footer {
