@@ -20,9 +20,13 @@ h1, h2, h3, h4 {
 	border: none;
 }
 
+a {
+	color: #19A9B3;
+}
 
 a:hover {
 	text-decoration: none;
+	color: #1CB3B7;
 }
 
 .navbar {
@@ -75,7 +79,7 @@ a:hover {
 }
 
 #sidebar>li.active>a {
-	color: #f0ad4e;
+	color: #F05439;
 	border:0 #eee solid;
   	border-right-width:4px;
 }
@@ -94,7 +98,7 @@ a:hover {
 }
 
 #sidebar .active>ul>.active a {
-	color: #f0ad4e;
+	color: #F05439;
 	border:0 #eee solid;
   	border-right-width:4px;
 }
