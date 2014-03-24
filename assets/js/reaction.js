@@ -1,6 +1,9 @@
 $('#sidebar').affix({
       offset: {
-        top: 100
+        top: 100,
+        bottom: function () {
+            return (this.bottom = $('footer').outerHeight(true) + 15)
+        }
       }
 });
 
@@ -8,7 +11,7 @@ var $body   = $(document.body);
 var navHeight = $('.navbar').outerHeight(true) - 50;
 
 $body.scrollspy({
-	target: '#leftCol',
+	target: '#sidebar',
 	offset: navHeight
 });
 

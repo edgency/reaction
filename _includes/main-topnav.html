@@ -12,6 +12,18 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a 
+          {% if page.url == '/manual/index.html' %}
+            class="active"
+          {% endif %}
+        href="{{ site.baseurl }}/manual/">User Manual</a>
+        </li>
+        <li><a 
+          {% if page.url == '/dev/index.html' %}
+            class="active"
+          {% endif %}
+        href="{{ site.baseurl }}/dev/">Developer Docs</a>
+        </li>
+        <li><a 
           {% if page.url == '/about/index.html' %}
             class="active"
           {% endif %}
@@ -27,7 +39,7 @@
           {% if page.url == '/contact/index.html' %}
             class="active"
           {% endif %}
-          href="{{ site.baseurl }}/contact">Contact Us</a>
+          href="{{ site.baseurl }}/contact">Contact</a>
         </li>
       </ul>
     </div><!--/.nav-collapse -->
