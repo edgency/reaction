@@ -33,7 +33,7 @@ In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra e
 
 ***
 
-## <a name="sec2"></a>Section 2
+<h2 id="sec2">Section 2</h2>
 
 Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
 
@@ -43,7 +43,7 @@ In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra e
 
 ***
 
-## <a name="sec3"></a>Section 3
+<h2 id="sec3">Section 3</h2>
 
 Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
 
@@ -53,7 +53,7 @@ In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra e
 
 ***
 
-## <a name="sec4"></a>Section 4
+<h2 id="sec4">Section 4</h2>
 
 Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
 

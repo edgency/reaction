@@ -78,17 +78,17 @@ a:hover {
 	color: #808080;
 }
 
-#sidebar>li.active>a {
+#sidebar li.active>a {
 	color: #F05439;
 	border:0 #eee solid;
   	border-right-width:4px;
 }
 
-#sidebar .nav {
+#sidebar ul .nav {
 	display: none;
 }
 
-#sidebar .nav a {
+#sidebar ul .nav a {
 	font-size: 12px;
 	padding: 6px 0 8px 24px;
 }

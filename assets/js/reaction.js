@@ -11,7 +11,7 @@ var $body   = $(document.body);
 
 $body.scrollspy({
 	target: '#sidebar',
-	offset: 160
+	offset: 5
 });
 
 /* Carousel */
