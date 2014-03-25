@@ -64,6 +64,14 @@ a:hover {
 	color: #777;
 }
 
+.navbar-brand {
+	padding: 11px;
+}
+
+.navbar-brand img {
+	height: 100%;
+	width: auto;
+}
 
 /* Sidebar */
 
