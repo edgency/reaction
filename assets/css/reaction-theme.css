@@ -216,6 +216,11 @@ p img.img-responsive {
 	color: #F05439;
 }
 
+.main-footer .social a {
+	font-size: 1em;
+	display: inline-block;
+}
+
 .sub-footer {
 	height: 40px;
 	padding-top: 10px;
