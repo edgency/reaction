@@ -265,6 +265,10 @@ p img.img-responsive {
 	float: left;
 }
 
+.main-footer #mc_embed_signup {
+	margin-top: 3px;
+}
+
 .main-footer #mce-EMAIL {
 	font-size: 13px;
 }
