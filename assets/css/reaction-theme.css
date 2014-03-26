@@ -38,6 +38,7 @@ a:hover {
 
 .navbar {
   border-radius: 0;
+  margin-bottom: 0;
 }
 
 .header {
@@ -78,6 +79,16 @@ a:hover {
 .navbar-brand img {
 	height: 100%;
 	width: auto;
+}
+
+/* Hellobar */
+
+.hellobar {
+	font-size: 11px;
+	background-color: #1CB3B7;
+	color: #fff;
+	line-height: 20px;
+	display: none;
 }
 
 /* Sidebar */
