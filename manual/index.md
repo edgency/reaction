@@ -92,7 +92,7 @@ Using the file picker, you can drag and drop images and videos from your desktop
 + Image URL
 + and many more...
 
-<img src="http://placehold.it/725x250" class="img-responsive">
+<img src="{{ site.baseurl }}/assets/img/manual-products-pickmedia.png" class="img-responsive">
 
 Once you have your images/videos added to your gallery, simply drag and drop to set their position
 
