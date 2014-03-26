@@ -21,6 +21,13 @@ h1, h2, h3, h4 {
 	border: none;
 }
 
+.form-control:focus {
+	border-color: #19A9B3;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 a {
 	color: #197EA5;
 }
@@ -178,6 +185,23 @@ p img.img-responsive {
 	width: 90%;
 }
 
+/* Mailchimp Form */
+
+.mc-field-group {
+	display: inline-block;
+	width: 65%;
+	float: left;
+}
+
+#mce-EMAIL {
+	height: 32px;
+}
+
+#mc-embedded-subscribe {
+	width: 26%;
+	display: inline-block;
+	margin-left: 1%;
+}
 
 /* About Page */
 
@@ -224,9 +248,36 @@ p img.img-responsive {
 	color: #F05439;
 }
 
-.main-footer .social a {
-	font-size: 1em;
+.main-footer .contact a {
+	font-size: 13px;
 	display: inline-block;
+}
+
+.main-footer .contact a.emaillink {
+	text-transform: none;
+	display: block;
+	margin: 10px 0 6px 0;
+}
+
+.main-footer .mc-field-group {
+	display: inline-block;
+	width: 70%;
+	float: left;
+}
+
+.main-footer #mce-EMAIL {
+	font-size: 13px;
+}
+
+.main-footer #mc-embedded-subscribe {
+	width: 20%;
+	display: inline-block;
+	margin-left: 1%;
+}
+
+.main-footer .subscribe span {
+	font-size: 13px;
+	color: #999;
 }
 
 .sub-footer {
