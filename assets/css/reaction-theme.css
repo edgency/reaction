@@ -248,6 +248,10 @@ p img.img-responsive {
 	color: #F5F5F5;
 }
 
+.main-footer h4 {
+	line-height: 24px;
+}
+
 .main-footer a {
 	color: #fff;
 	font-size: 11px;
