@@ -190,7 +190,10 @@ p img.img-responsive {
 .actions {
 	background-color: #f8f8f8;
 	border: 1px solid #e7e7e7;
-	padding-bottom: 20px;
+}
+
+.actions .col-sm-4 {
+	margin-bottom: 40px;
 }
 
 #main-carousel .owl-item div {
@@ -201,6 +204,7 @@ p img.img-responsive {
 @media (min-width: 768px) {
 	.actions .col-sm-4 {
 		text-align: left;
+		margin-bottom: 20px;
 	}
 }
 
@@ -326,8 +330,8 @@ p img.img-responsive {
 }
 
 .sub-footer {
-	height: 40px;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 14px;
 }
 
@@ -361,9 +365,15 @@ p img.img-responsive {
 	font-size: 2em;
 	}
 	.main-footer .mc-field-group {
-		width: 70%;
+		width: 79%;
 	}
 	.sub-footer {
 		font-size: 16px;
+		height: 40px;
+		padding-bottom: 0;
+		text-align: left;
+	}
+	.sub-footer .text-muted {
+		float: right;
 	}
 }
