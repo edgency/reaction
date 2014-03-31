@@ -1,12 +1,12 @@
 $(document).ready(function() {
 
     $('#sidebar').affix({
-          offset: {
-            top: 150,
-            bottom: function () {
-                return (this.bottom = $('footer').outerHeight(true) + 15)
-            }
-          }
+      offset: {
+        top: 150,
+        bottom: function () {
+            return (this.bottom = $('footer').outerHeight(true) + 15)
+        }
+      }
     });
 
     var $body   = $(document.body);
@@ -15,6 +15,17 @@ $(document).ready(function() {
     	target: '#sidebar',
     	offset: 5
     });
+
+    var toggleSub = function (){
+      if ( $('.col-sm-4').width() == 220 ) {
+            $('.actions #mc-embedded-subscribe').val('>');
+        }
+        else {
+            $('.actions #mc-embedded-subscribe').val('Subscribe');
+        }  
+    }
+    toggleSub();
+    $(window).resize(toggleSub);
 
     /* Carousel */
     $("#main-carousel").owlCarousel({

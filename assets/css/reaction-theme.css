@@ -198,22 +198,45 @@ p img.img-responsive {
 	width: 90%;
 }
 
+@media (min-width: 768px) {
+	.actions .col-sm-4 {
+		text-align: left;
+	}
+}
+
 /* Mailchimp Form */
 
 .mc-field-group {
 	display: inline-block;
-	width: 65%;
+	width: 79%;
 	float: left;
 }
 
 #mce-EMAIL {
-	height: 32px;
+	height: 40px;
+	font-size: 14px;
 }
 
 #mc-embedded-subscribe {
-	width: 26%;
+	width: 20%;
 	display: inline-block;
 	margin-left: 1%;
+	height: 40px;
+	-webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 768px) {
+	.mc-field-group {
+		width: 65%;
+	}
+	#mce-EMAIL {
+		height: 32px;
+		font-size: 13px;
+	}
+	#mc-embedded-subscribe {
+		height: 32px;
+		width: 32%;
+	}
 }
 
 /* About Page */
@@ -246,27 +269,33 @@ p img.img-responsive {
 .main-footer {
 	background-color: #404040;
 	color: #F5F5F5;
+	text-align: center;
 }
 
 .main-footer h4 {
-	line-height: 24px;
+	line-height: 30px;
+	font-size: 24px
 }
 
 .main-footer a {
 	color: #fff;
-	font-size: 11px;
+	font-size: 14px;
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	display: block;
-	line-height: 24px;
+	line-height: 32px;
 }
 
 .main-footer a:hover {
 	color: #F05439;
 }
 
+.main-footer .col-sm-6 {
+	margin-bottom: 25px;
+}
+
 .main-footer .contact a {
-	font-size: 13px;
+	font-size: 14px;
 	display: inline-block;
 }
 
@@ -278,7 +307,6 @@ p img.img-responsive {
 
 .main-footer .mc-field-group {
 	display: inline-block;
-	width: 70%;
 	float: left;
 }
 
@@ -286,19 +314,41 @@ p img.img-responsive {
 	margin-top: 3px;
 }
 
-.main-footer #mce-EMAIL {
-	font-size: 13px;
-}
-
 .main-footer #mc-embedded-subscribe {
-	width: 20%;
 	display: inline-block;
 	margin-left: 1%;
+	width: 20%;
 }
 
 .main-footer .subscribe span {
 	font-size: 13px;
 	color: #999;
+}
+
+@media (min-width: 768px) {
+	.main-footer {
+		text-align: left;
+	}
+	.main-footer a {
+		font-size: 11px;
+		line-height: 24px;
+	}
+	.main-footer h4 {
+		line-height: 24px;
+		font-size: 18px
+	}
+	.main-footer .col-sm-6 {
+		margin-bottom: 0;
+	}
+	.main-footer .contact a {
+		font-size: 13px;
+	}
+	.main-footer i {
+	font-size: 2em;
+	}
+	.main-footer .mc-field-group {
+		width: 70%;
+	}
 }
 
 .sub-footer {
