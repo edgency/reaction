@@ -17,7 +17,7 @@ $(document).ready(function() {
     });
 
     var toggleSub = function (){
-      if ( $('.col-sm-4').width() == 220 ) {
+      if ( $('#mc-embedded-subscribe').outerWidth() < 90 ) {
             $('.actions #mc-embedded-subscribe').val('>');
         }
         else {

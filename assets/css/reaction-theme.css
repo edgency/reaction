@@ -325,6 +325,20 @@ p img.img-responsive {
 	color: #999;
 }
 
+.sub-footer {
+	height: 40px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.sub-footer .row {
+	padding: 0;
+}
+
+.sub-footer .glyphicon-heart {
+	color: #F05439;
+}
+
 @media (min-width: 768px) {
 	.main-footer {
 		text-align: left;
@@ -349,17 +363,7 @@ p img.img-responsive {
 	.main-footer .mc-field-group {
 		width: 70%;
 	}
-}
-
-.sub-footer {
-	height: 40px;
-	padding-top: 10px;
-}
-
-.sub-footer .row {
-	padding: 0;
-}
-
-.sub-footer .glyphicon-heart {
-	color: #F05439;
+	.sub-footer {
+		font-size: 16px;
+	}
 }
