@@ -2,4 +2,5 @@ name: Reaction Commerce
 markdown: redcarpet
 pygments: true
 repository: https://github.com/ongoworks/reaction
+baseurl: ''
 relative_permalinks: true
