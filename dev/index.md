@@ -5,9 +5,9 @@ title: Developer Docs
 
 <section id="sec0">
 
-##Section 0
+##Section 0 <span class="version">As of v0.5.0</span>
 
-Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
+Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa.
 
 ```css
 #sidebar li a {
@@ -21,11 +21,15 @@ Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a sceleris
 }
 ```
 
+Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
+
+<span class="note">This is a note. We can use these to alert readers to upcoming changes, depreciations or other relevant contextual notifications.</span>
+
 </section>
 
 <section id="sec01">
 
-###Section 0.1
+###Section 0.1 <span class="version">As of v0.5.0</span>
 
 In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra eu arcu a faucibus. Proin id consectetur nisl. Nulla dapibus facilisis ipsum, vitae ultrices nibh placerat et.
 
@@ -46,7 +50,7 @@ if (navigator.userAgent.match(/iPhone/i)) {
 
 <section id="sec02">
 
-###Section 0.2
+###Section 0.2 <span class="version">As of v0.5.0</span>
 
 Ligula sit amet pharetra suscipit, velit metus adipiscing orci, id euismod massa nisi vel lectus. Nullam aliquet est a est imperdiet, id mattis nulla tempor. Ut risus nisi, ornare malesuada nisl ut, auctor sagittis lectus.
 
@@ -65,7 +69,7 @@ $('#sidebar').affix({
 
 <section id="sec03">
 
-###Section 0.3
+###Section 0.3 <span class="version">As of v0.5.0</span>
 
 Pellentesque varius ipsum enim, nec commodo nulla iaculis eget. Integer nec leo vitae velit imperdiet venenatis nec eu magna. Pellentesque pharetra nibh vitae felis venenatis consequat. Maecenas egestas.
 
@@ -85,7 +89,7 @@ function gestureStart() {
 
 <section id="sec1">
 
-##Section 1
+##Section 1 <span class="version">As of v0.5.0</span>
 
 Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
 
@@ -99,7 +103,7 @@ In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra e
 
 <section id="sec2">
 
-##Section 2
+##Section 2 <span class="version">As of v0.5.0</span>
 
 Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
 
@@ -113,7 +117,7 @@ In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra e
 
 <section id="sec3">
 
-##Section 3
+##Section 3 <span class="version">As of v0.5.0</span>
 
 Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
 
@@ -127,7 +131,7 @@ In blandit metus leo, ac suscipit arcu scelerisque bibendum. Praesent pharetra e
 
 <section id="sec4">
 
-##Section 4
+##Section 4 <span class="version">As of v0.5.0</span>
 
 Praesent vehicula euismod lectus quis blandit. Sed metus leo, lacinia a scelerisque eu, adipiscing nec metus. Donec vel sollicitudin turpis. Nulla facilisi. Integer id magna volutpat, lacinia sem et, feugiat lorem. Nullam scelerisque, justo mattis congue porta, magna ipsum placerat eros, eu bibendum augue lorem sed erat. Phasellus porttitor lacus vel blandit blandit. Pellentesque at libero mi. Fusce ut dapibus velit, in auctor massa. Ut elit nibh, varius vel blandit ut, bibendum eget odio. Vestibulum fermentum augue nec eros sollicitudin tempor. Suspendisse commodo quam eget tincidunt ornare. Quisque quis convallis nisl. Sed lacus nulla, laoreet in diam eu, pharetra imperdiet mauris. Donec a tincidunt velit.
 

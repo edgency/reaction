@@ -161,15 +161,22 @@ p {
 	margin-bottom: 20px;
 }
 
-section p.note { /* generalized for use in other pages such as Dev Docs */
-	font-style: italic;
-	color: #808080;
-}
-
 p img.img-responsive {
 	border: 1px solid #e7e7e7;
 }
 
+.note {
+	background-color: #efdb7d;
+	color: #3e3717;
+	display: block;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.version {
+	font-size: 11px;
+	color: #808080;
+}
 
 /* Landing Page */
 
