@@ -30,8 +30,8 @@ $(document).ready(function() {
     /* Carousel */
     $("#main-carousel").owlCarousel({
     		
-    		items : 1,
-    		itemsDesktop : [1199,1],
+    items : 1,
+    itemsDesktop : [1199,1],
     itemsDesktopSmall : [980,1],
     itemsTablet: [768,1],
     itemsMobile : [479,1],
@@ -49,13 +49,13 @@ $(document).ready(function() {
     rewindSpeed : 1000,
 
     //Autoplay
-    autoPlay : false,
+    autoPlay : 7000,
     stopOnHover : false,
 
     // Navigation
     navigation : false,
     navigationText : ["prev","next"],
-    rewindNav : true,
+    rewindNav : false,
     scrollPerPage : false,
 
     //Pagination
@@ -76,7 +76,7 @@ $(document).ready(function() {
     lazyEffect : "fade",
 
     //Auto height
-    autoHeight : false,
+    autoHeight : true,
 
     //JSON 
     jsonPath : false, 
